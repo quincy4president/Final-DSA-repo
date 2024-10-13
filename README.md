@@ -1,7 +1,7 @@
 PHONEBOOK
 APPLICATION
 
-INTRODUCTION
+-INTRODUCTION-
 
 Our Objective: To create
 a digital phone book that
@@ -10,27 +10,33 @@ manage, and retrieve
 contact information
 efficiently.
 
-FUNCTIONS
+-FUNCTIONS-
 
 INSERT Contacts: Users can
 add new contact details
 including name, phone
 number, address, and email.
+
 UPDATE Contacts: Existing
 contact information can be
 updated.
+
 Delete Contacts: Users can
 remove contacts that are no
 longer needed.
+
 Search Contacts: A search
 functionality to quickly find
 contacts by name or other
 details.
+
 DISPLAY Contacts: Users can
 view all their contacts in
 alphabetical order.
 
-Challenges
+
+-Challenges-
+
 One challenge was creating a linked database
 and
 ensuring data integrity
@@ -40,7 +46,8 @@ simultaneously.
 so we implied a Linked list solution
 
 
-Conclusion
+-Conclusion-
+
 This application simplifies
 contact management and
 can be a valuable tool for
