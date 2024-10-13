@@ -1,0 +1,54 @@
+Start
+  display options
+  Prompt user to choose an option
+  Get option
+
+  if(option == 1) then
+     Prompt user for to enter contact
+     Get name, phoneNumber
+       contact = name && phoneNumber
+         display "Contact added successfully"
+  endif
+
+   if(option == 2) then
+      Prompt user to search for a contact
+      Get contact
+          if(contact == contacts) then
+             display "Contact found"
+          else
+             display "Contact not found"
+          endif
+   endif
+
+  if(option == 3) then
+      display all contacts
+    else
+      display "Phone book is empty"
+  endif
+ 
+  if(option == 4) then
+     Prompt user to enter name of the contact they want to delete
+     Get name
+     if(name == contact)
+        Delete = contact - contacts 
+       display "Contact deleted"
+     else
+       display "Contact not found"
+     endif
+   endif
+
+   if(option == 5) then
+      Prompt user to enter name to update
+      Get name
+      Prompt user to enter new contact
+      Get name, phoneNumber
+       Update = name && phoneNumber
+        display "Contact updated successfully!"
+      else
+        display "Contact not found"
+   endif 
+
+   if(option == 6) then
+      display "Exiting phonebook"
+   endif
+ End
